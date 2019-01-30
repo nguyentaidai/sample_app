@@ -1,31 +1,41 @@
 vi:
+  hello: "chao the gioi"
   static_pages:
-    home:
-     home: "Trang chủ"
-      sample_app: "Ứng dụng mẫu"
-      home_pages: "Đây là trang chủ "
+    home: 
+      home: "nhà"
+      This_is: "Đây là trang chủ cho"
       sample_application: "ứng dụng mẫu."
+      Welcome_to: "Chào mừng đến với ứng dụng mẫu"
+      sign_up: "Đăng ký ngay bây giờ"
     help:
-      help: "Trợ giúp"
-      get_help: "Nhận sự hỗ trợ Rails "
-      help_section: "hỗ trợ Rails Tutorial "
-      to_get_help: "Nếu muốn nhận sự hỗ trợ từ ứng dụng mẫu này thì xem tại "
-      at_book: "cuốn sách hướng dẫn Ruby on Rails"
+      help: "Giúp đỡ"
+      word4: "Sự giúp cho ROR"
+      word5: "Cuốn sách cho ROR"
     about:
-      about: "Về chúng tôi"
-      the: "các"
-      is_a: "là một"
-      book: "quyển sách"
-      and: "và"
-      screencast: " screencast"
-      teach: "để dạy phát triền web với "
-      intro: "Đây là ứng dụng mẫu cho hướng dẫn."
+      about: "Thuộc về"
+      word1: "tài liệu Ruby on Rails"
+      word3: "GG dịch"
     contact:
       contact: "Liên hệ"
-      contact_at: "Liên hệ tại"
-      contact_page: "trang "
-  tutorial: "Hướng dẫn Ruby on Rails"
-  ruby: "Ruby on Rails"
-  hi: "Hướng dẫn ứng dụng mẫu Rails"
-  english: "Tiếng anh"
-  vietnam: "Tiếng việt"
+      content_html: "Nội dung"
+      contact_page: "trang liên hệ"
+  layouts:
+    application:
+      title: "ứng dụng mẫu của Ruby on Rails"
+    footer:
+      the: "Đây là Ruby on Rails Tutorial"
+      by: "thực hiện bởi Michael Hartl"
+      about: "giới thiệu"
+      contact: "liên lạc"
+      new: "tin tức"
+    header:
+      sample_app: "ứng dụng mẫu"
+      home: "trang chủ"
+      help: "giúp đỡ"
+      log_in: "đăng nhập"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      this_will: "Đây sẽ là trang đăng ký cho người dùng mới"
