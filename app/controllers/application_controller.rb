@@ -1,10 +1,9 @@
-class UsersController < ApplicationController
-  def new
-    @user = User.new
-  end
-
-  def create
-    @user = User.new user_params
+class ApplicationController < ActionController::Base
+  protect_from_forgery with: :exception
+  before_action :set_locale
+  include SessionsHelper
+  
+  private
 
     if @user.save
       redirect_to action: :show, id: @user.id
