@@ -1,59 +1,56 @@
 vi:
-  fail_to_load_user: "Xin lỗi, bạn ko tồn tại trên trái đất này... :|"
-  succes_to_create_user: "Tạo thành công"
-  fail_to_create_user: "Tạo thất bại"
-  ror_sample_app: "Dự án mẫu Ruby on Rails Tutorial"
-  users:
-    new:
-      new_caption: "Đăng ký"
-    form:
-      new_name: "Tên"
-      new_email: "Email"
-      new_password: "Mật khẩu"
-      new_confirm_password: "Xác nhật mật khẩu"
-      new_account: "Tạo mới tài khoản"
+  hello: "chao the gioi"
+  static_pages:
+    home: 
+      home: "Trang chủ"
+      This_is: "Đây là trang chủ cho"
+      sample_application: "ứng dụng mẫu."
+      Welcome_to: "Chào mừng đến với ứng dụng mẫu"
+      sign_up: "Đăng ký ngay bây giờ"
+    help:
+      help: "Giúp đỡ"
+      word4: "Sự giúp cho ROR"
+      word5: "cuốn sách cho ROR" 
+    about:
+      word1: "tài liệu Ruby on Rails"
+      word3: "GG dịch"
+    contact:
+      contact: "Liên hệ"
+      content_page: "Nội dung trang"
+      contact_html: "liên hệ"
   layouts:
     application:
       app_cap_language: "Ngôn ngữ"
     header:
-      header_caption: "Ứng dụng mẫu"
-      header_navbar_right_0: "Trang chủ"
-      header_navbar_right_1: "Trợ giúp"
-      header_navbar_right_2: "Đăng nhập"
-    footer:
-      footer_paragraph_0: ""
-      footer_paragraph_1: "Hướng dẫn Ruby on Rails"
-      footer_paragraph_2: "của"
-      footer_paragraph_3: "Về chúng tôi"
-      footer_paragraph_4: "Liên hệ"
-      footer_paragraph_5: "Tin tức"
-  static_pages:
-    about:
-      about_title: "Về chúng tôi"
-      about_caption: "Về chúng tôi"
-      about_paragraph_0: ""
-      about_paragraph_1: "là một"
-      about_paragraph_2: "cuốn sách"
-      about_paragraph_3: "và là"
-      about_paragraph_4: "một chuỗi series"
-      about_paragraph_5: "hướng dẫn cách phát triển website với"
-      about_paragraph_6: "Đây chính là ứng dụng mẫu cho cuốn sách này."
-    contact:
-      contact_title: "Liên hệ"
-      contact_caption: "Liên hệ"
-      contact_paragraph_0: "Liên hệ với Ruby on Rails Tutorial về dự án mẫu tại"
-      contact_paragraph_1: "trang liên hệ"
-    help:
-      help_title: "Trợ giúp"
-      help_caption: "Trợ giúp"
-      help_paragraph_0: "Sự trợ giúp Ruby on Rails Tutorial có tại"
-      help_paragraph_1: "mục trợ giúp"
-      help_paragraph_2: "Cần sự trợ giúp về dự án mẫu ?, có tại"
-      help_paragraph_3_part_a: "Hướng dẫn "
-      help_paragraph_3_part_b: ""
-    home:
-      home_title: "Trang chủ"
-      home_caption: "Chào mừng tới Dự án mẫu"
-      home_paragraph_0: "Đây là trang chủ của"
-      home_paragraph_1: "Dự án mẫu."
-      home_signup: "Đăng kí ngay"
+      sample_app: "ứng dụng mẫu"
+      home: "trang chủ"
+      help: "giúp đỡ"
+      log_in: "đăng nhập"
+      account: "Tài khoản"
+      users: "Người dùng"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
+  sessions:
+    new:
+      email: "Địa chỉ email"
+      pass: "Mật khẩu"
+      log_in: "Đăng nhập"
+      new_user: "Tạo người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+  users:
+    new:
+      sign_up: "Đăng nhập"
+      name: "Họ và tên"
+      email: "Địa chỉ mail"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩi"
+      Create my account: "Tạo tài khoản của tôi"
+  shared:
+    error_messages:
+      error1: "Biểu mẫu có chứa"
+      error2: "lỗi"
+  wel_app: "Chào mừng bạn đến với Ứng dụng mẫu!"
+  error_signup: "Thất bại"
+  not_found: "Không tìm thấy người dùng"
+  invalid_email_password: "Email / mật khẩu không hợp lệ"

@@ -1,59 +1,41 @@
 en:
-  succes_to_create_user: "Create successful"
-  fail_to_create_user: "Create fail"
-  fail_to_load_user: "Sorry, your user you search is not here :|"
-  ror_sample_app: "Ruby on Rails Tutorial Sample App"
-  users:
-    new:
-      new_caption: "Sign in"
-    form:
-      new_name: "Name"
-      new_email: "Email"
-      new_password: "Password"
-      new_confim_password: "Password confirm"
-      new_account: "Create my account"
+    contact:
+      contact: "Contact"
+      content_page: "content page"
+      contact_html: "contact"
   layouts:
     application:
       app_cap_language: "Language"
     header:
-      header_caption: "sample app"
-      header_navbar_right_0: "Home"
-      header_navbar_right_1: "Help"
-      header_navbar_right_2: "Log in"
-    footer:
-      footer_paragraph_0: "The"
-      footer_paragraph_1: "Ruby on Rails Tutorial"
-      footer_paragraph_2: "by"
-      footer_paragraph_3: "About"
-      footer_paragraph_4: "Contact"
-      footer_paragraph_5: "News"
-  static_pages:
-    about:
-      about_title: "About"
-      about_caption: "About"
-      about_paragraph_0: "The"
-      about_paragraph_1: "is a"
-      about_paragraph_2: "book"
-      about_paragraph_3: "and"
-      about_paragraph_4: "screencast series"
-      about_paragraph_5: "to teach web development with"
-      about_paragraph_6: "This is the sample application for the tutorial."
-    contact:
-      contact_title: "Contact"
-      contact_caption: "Welcome to the Sample App"
-      contact_paragraph_0: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      contact_paragraph_1: "contact page"
-    help:
-      help_title: "Help"
-      help_caption: "Help"
-      help_paragraph_0: "Get help on the Ruby on Rails Tutorial at the"
-      help_paragraph_1: "help section"
-      help_paragraph_2: "To get help on this sample app, see the"
-      help_paragraph_3_part_a: ""
-      help_paragraph_3_part_b: "book"
-    home:
-      home_title: "Home"
-      home_caption: "Welcome to the Sample App"
-      home_paragraph_0: "This is the home page for the"
-      home_paragraph_1: "sample application."
-      home_signup: "Sign up now"
+      sample_app: "SAMPLE APP"
+      home: "Home"
+      help: "Help"
+      log_in: "Login"
+      account: "Account"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+  sessions:
+    new:
+      email: "Email"
+      pass: "Password"
+      log_in: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      Create my account: "Create my account"
+  shared:
+    error_messages:
+      error1: "The form contains"
+      error2: "error"
+  wel_app: "Welcome to the Sample App!"
+  error_signup: "Fails"
+  not_found: "User not found"
+  invalid_email_password: "Invalid email/password combination"
